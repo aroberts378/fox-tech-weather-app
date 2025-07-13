@@ -30,3 +30,8 @@ A simple, responsive weather app built with Vanilla JavaScript and the OpenWeath
 ```html
 <!-- Example placeholder -->
 <img src="./screenshot.png" alt="FoxTech Weather App Screenshot" width="100%">
+
+
+git clone https://github.com/aroberts378/foxtech-weather-app.git
+cd foxtech-weather-app
+open index.html
