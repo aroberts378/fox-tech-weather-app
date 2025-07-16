@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="./src/output.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            "fox-purple": '#b28dff',
+            "fox-teal": '#8fe3cf',
+            "fox-rose": '#fcd5ce',
+            "fox-pink": '#ffb6c1',
+            "fox-beige": '#F5F5DC',
+            "fox-orange": '#ffd6a5',
+          }
+        }
+      }
+    }
+  </script>
+
+
+</head>
+
+<body class="flex items-center justify-center min-h-screen bg-gray-900">
+  <div class="p-6 shadow-lg bg-gradient-to-br from-foxturq via-foxpurple to-foxrose rounded-xl">
+    <form id="weatherForm" class="flex mb-4 space-x-2">
+      <input id="cityInput" type="text" placeholder="Enter city"
+        class="w-64 px-4 py-2 text-gray-700 rounded outline-none" />
+      <button type="submit" class="px-4 py-2 font-bold text-white rounded bg-foxrose">Get Weather</button>
+    </form>
+
+    <div class="space-y-2 text-center">
+      <p id="location" class="text-xl font-medium text-white">--</p>
+      <img id="weather-icon" class="w-20 h-20 mx-auto" src="/public/images/clear.png">
+      <p id="temp" class="text-4xl font-bold text-white">--°F</p>
+      <p id="description" class="text-white capitalize">--</p>
+    </div>
+
+    <div class="flex justify-between mt-4 text-sm text-white">
+      <div>
+        <p id="humidity">--%</p>
+        <p>Humidity</p>
+      </div>
+      <div class="text-right">
+        <p id="wind">-- mph</p>
+        <p>Wind</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+
+
+</html>
