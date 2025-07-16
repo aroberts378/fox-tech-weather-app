@@ -41,4 +41,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const city = input.value.trim();
     if (city) getWeatherData(city);
   });
+
+  window.addEventListener("load", () => {
+  getWeather("Orlando"); // or any default city
+});
+
 });
