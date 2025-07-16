@@ -22,7 +22,7 @@ async function getWeatherData(city) {
     icon.alt = data.weather[0].description;
 
   } catch (err) {
-    document.getElementById("location").textContent = "❌ " + err.message;
+    document.getElementById("location").textContent = "❌" + err.message;
     document.getElementById("temp").textContent = "--°";
     document.getElementById("description").textContent = "";
     document.getElementById("humidity").textContent = "--%";
