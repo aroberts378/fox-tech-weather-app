@@ -10,8 +10,12 @@ async function getWeatherData(city) {
     if (!response.ok) throw new Error(data.message || "Something went wrong");
 
     // Update DOM
-    document.getElementById("location").textContent = `${data.name}, ${data.sys.country}`;
-    document.getElementById("temp").textContent = `${Math.round(data.main.temp)}°F`;
+    document.getElementById(
+      "location"
+    ).textContent = `${data.name}, ${data.sys.country}`;
+    document.getElementById("temp").textContent = `${Math.round(
+      data.main.temp
+    )}°F`;
     document.getElementById("description").textContent = data.weather[0].main;
     document.getElementById("humidity").textContent = `${data.main.humidity}%`;
     document.getElementById("wind").textContent = `${data.wind.speed} mph`;
@@ -20,7 +24,6 @@ async function getWeatherData(city) {
     const icon = document.getElementById("weather-icon");
     icon.src = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
     icon.alt = data.weather[0].description;
-
   } catch (err) {
     document.getElementById("location").textContent = "❌" + err.message;
     document.getElementById("temp").textContent = "--°";
@@ -36,14 +39,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("weatherForm");
   const input = document.getElementById("cityInput");
 
+  window.addEventListener("load", () => {
+    getWeather("Orlando"); // or any default city
+  });
+
   form.addEventListener("submit", (e) => {
     e.preventDefault();
     const city = input.value.trim();
     if (city) getWeatherData(city);
   });
-
-  window.addEventListener("load", () => {
-  getWeather("Orlando"); // or any default city
-});
-
 });
