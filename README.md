@@ -33,11 +33,7 @@ https://fox-tech-weather-app.netlify.app/
   <img src="/public/images/Screenshot weather app.png"></img>
 </p>
 
-```html
-<!-- Example placeholder -->
-<img src="./screenshot.png" alt="FoxTech Weather App Screenshot" width="100%">
-
-
+## Git Commands
 git clone https://github.com/aroberts378/foxtech-weather-app.git
 cd foxtech-weather-app
 open index.html
