@@ -23,9 +23,15 @@ A simple, responsive weather app built with Vanilla JavaScript and the OpenWeath
 
 ---
 
+## Live Preview
+https://fox-tech-weather-app.netlify.app/
+
+
 ## 📸 Screenshots
 
-> _Add screenshots here when available_
+<p>
+  <img src="/public/images/Screenshot weather app.png"></img>
+</p>
 
 ```html
 <!-- Example placeholder -->
