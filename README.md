@@ -26,6 +26,12 @@ A simple, responsive weather app built with Vanilla JavaScript and the OpenWeath
 ## Live Preview
 https://fox-tech-weather-app.netlify.app/
 
+<p>
+  <video width="320" height="240">
+    <source src="public/images/Weather app.mp4" type="video/mp4">
+  </video>
+</p>
+
 
 ## 📸 Screenshots
 
@@ -34,6 +40,6 @@ https://fox-tech-weather-app.netlify.app/
 </p>
 
 ## Git Commands
-git clone https://github.com/aroberts378/foxtech-weather-app.git
-cd foxtech-weather-app
+git clone https://github.com/aroberts378/foxtech-weather-app.git <br/>
+cd foxtech-weather-app <br/>
 open index.html
