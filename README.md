@@ -23,15 +23,23 @@ A simple, responsive weather app built with Vanilla JavaScript and the OpenWeath
 
 ---
 
+
+## DEMO VIDEO
+  <video width="320" height="240 autoplay">
+    <source src="https://github.com/aroberts378/fox-tech-weather-app/blob/7a550df6879ede7e906f068da8991e08096a5688/public/images/Weather%20app.mp4">
+  </video>
+
+
+
+
+
+---
+
 ## Live Preview
 https://fox-tech-weather-app.netlify.app/
 
-<p>
-  <video width="320" height="240">
-    <source src="public/images/Weather app.mp4" type="video/mp4">
-  </video>
-</p>
 
+---
 
 ## 📸 Screenshots
 
