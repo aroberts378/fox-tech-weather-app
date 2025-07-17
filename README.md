@@ -26,7 +26,7 @@ A simple, responsive weather app built with Vanilla JavaScript and the OpenWeath
 
 ## DEMO VIDEO
   <video width="320" height="240 autoplay">
-    <source src="https://github.com/aroberts378/fox-tech-weather-app/blob/7a550df6879ede7e906f068da8991e08096a5688/public/images/Weather%20app.mp4">
+    <source src="aroberts378/fox-tech-weather-app/public/images/Weather app.mp4">
   </video>
 
 
